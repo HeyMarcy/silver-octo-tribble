@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: AMZS57JMkCpvvwcEozdzKf0MFMRaBM48XxP6HefeF1I+jSGQCcZM4VCVr+1awQj2XOLbOEZP+Q3QSeF2IMnhN8d3xR7g4TiBOb5nKq012D25NR0imyLOW2gysInma3jeBsYMzNJvKinWYBhzJEqJOJ9n6nmFRo5+Njq927pyFUJZgSjnBXaL+qmzqNWkev/WL57MMOILcid+B6i5F7+dSwkIN+JUD1ZGXbWzD6PehZZ5GBf4FLHKzIwRn/kdB1DTchRx7dbQv5iufZqZpVJPC/sOPpcAbcNHZ2ZP2FhCMu1zWck77Xl+fiKwWl7ti87SQVp/G33Nfm2wlU4GGpF6yRoKB4/siAYpPtDL4tejHlpAVPHpVdWCmyHHIdeaIRH7i6PqdhSxE+Fj/KK9WKJ7RSeu3Rr8lTWTHwAkxBwLcmTlAzY6kqh4GIxwE5vU6Kx8im/9HsSq9g9YNRlYT8h167XV2E0r7PoM0p19821U9zJS+Olu++wZT0LMwsuwgp7kYNPjdAi3NT5i+/+aJvCyWYbAQnNayt12JVs8W8chqPZuI+OMQA8A5Nt6uekQhmfx0T+RXcKpKSQRkwj77ft6wMo5xwD6urYdOsMN2psDmpRj/WHIdetqs5hWMOWzxUqHJjOGgxVC/WijTU4wjlMnAXX+G5tKffiCaVuNd8q6pIA=
+  app: desolate-ravine-83136
+  on:
+    repo: HeyMarcy/silver-octo-tribble
